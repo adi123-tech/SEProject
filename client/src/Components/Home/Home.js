@@ -1,7 +1,7 @@
 // Home.js
 import React, { useState } from 'react';
 import './Home.css';
-import Footer from './Footer';
+import Footer from '../Footer/Footer';
 
 // Sample course data (replace it with your actual course data)
 const courses = [

@@ -1,9 +1,9 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './Navbar';
-import Home from './Home';
-import Profile from './Profile';
+import Navbar from './Components/Navbar/Navbar';
+import Home from './Components/Home/Home';
+import Profile from './Components/Profile/Profile';
 import EditProfile from './Components/EditProfile/EditProfile'; // Import the EditProfile component
 
 function App() {
